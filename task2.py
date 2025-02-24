@@ -26,13 +26,13 @@ else:
 # grade of a student based on the marks they score:
 
 marks = int(input("Enter marks"))
-if marks >= 80 and marks <=100:
+if marks >= 90 and marks <=100:
     print("Grade A")
-elif marks >= 70 and marks <=89:
+elif marks >= 80 and marks <=89:
     print("Grade B")
-elif marks >= 60 and marks <=79:
+elif marks >= 70 and marks <=79:
     print("Grade C")
-elif marks < 60:
+elif marks < 70:
     print("Fail")
 else:
     print("Not a number")
